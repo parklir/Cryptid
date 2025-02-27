@@ -116,7 +116,7 @@ return {
 				},
 			},
 		},
-		Блайнд = {
+		Blind = {
 			bl_cry_box = {
 				name = "Коробка",
 				text = {
@@ -296,7 +296,7 @@ return {
 				},
 			},
 		},
-		Код = {
+		Code = {
 			c_cry_class = {
 				name = "://CLASS",
 				text = {
@@ -547,7 +547,7 @@ return {
 				},
 			},
 		},
-		Джокер = {
+		Joker = {
 			j_cry_altgoogol = {
 				name = "Ностальгическая Гугол Игровая Карта",
 				text = {
@@ -723,7 +723,7 @@ return {
 				name = "Compound Interest",
 				text = {
 					"Получите {C:money}#1#%{} от total money",
-					"в концеround,",
+					"в конце раунда,",
 					"increases by {C:money}#2#%{} per",
 					"consecutive payout",
 				},
@@ -981,7 +981,7 @@ return {
 				text = {
 					"{C:attention}Double{} all values",
 					"of leftmost {C:attention}Джокер",
-					"в концеround",
+					"в конце раунда",
 				},
 			},
 			j_cry_giggly = {
@@ -996,7 +996,7 @@ return {
 				name = "Gold Джокер",
 				text = {
 					"Получите {C:money}#1#%{} от total",
-					"money в концеround",
+					"money в конце раунда",
 					"Payout increases by {C:money}#2#%{}",
 					"when each played {C:attention}Gold{}",
 					"card засчитывается",
@@ -1013,7 +1013,7 @@ return {
 				name = ":D",
 				text = {
 					"Создаёт случайный {C:attention}Джокер{}",
-					"в концеround",
+					"в конце раунда",
 					"Sell this card to",
 					"create a случайного {C:attention}Джокера{}",
 					"{C:inactive}(Должно быть место){}",
@@ -1075,7 +1075,7 @@ return {
 			j_cry_kidnap = {
 				name = "Kidnapping",
 				text = {
-					"Получите {C:money}$#2#{} в концеround",
+					"Получите {C:money}$#2#{} в конце раунда",
 					"Increase payout by {C:money}$#1#{}",
 					"когда {C:attention}Type Множ.{} or",
 					"{C:attention}Type Фишки{} Джокер is sold",
@@ -1118,7 +1118,7 @@ return {
 				text = {
 					"Give future copies of",
 					"this Джокер {X:mult,C:white}X#1#{} Множ.",
-					"в концеround",
+					"в конце раунда",
 					"{C:inactive}(Сейчас {X:mult,C:white}X#2#{C:inactive} Множ.){}",
 				},
 			},
@@ -1176,7 +1176,7 @@ return {
 			j_cry_magnet = {
 				name = "Fridge Magnet",
 				text = {
-					"Получите {C:money}$#1#{} в концеround",
+					"Получите {C:money}$#1#{} в конце раунда",
 					"This earns {X:money,C:white} X#2# {} if there are",
 					"{C:attention}#3#{} or fewer {C:attention}Джокер{} cards",
 				},
@@ -1219,7 +1219,7 @@ return {
 				text = {
 					"Sell this card to create",
 					"{C:attention}#2#{} Jolly #3#, increase",
-					"на {C:attention}#1#{} в концеround",
+					"на {C:attention}#1#{} в конце раунда",
 				},
 			},
 			j_cry_membershipcard = {
@@ -1250,7 +1250,7 @@ return {
 			j_cry_mneon = {
 				name = "Neon M",
 				text = {
-					"Получите {C:money}$#2#{} в концеround",
+					"Получите {C:money}$#2#{} в конце раунда",
 					"Increase payout by",
 					"{C:money}$#1#{} for each {C:attention}Jolly Джокер{}",
 					"или {C:legendary}M Джокер at",
@@ -1279,7 +1279,7 @@ return {
 			j_cry_morse = {
 				name = "Morse Код",
 				text = {
-					"Получите {C:money}$#2#{} в концеround",
+					"Получите {C:money}$#2#{} в конце раунда",
 					"Increase payout by {C:money}$#1#{} when",
 					"a card с {C:attention}Edition{} is sold",
 				},
@@ -1287,7 +1287,7 @@ return {
 			j_cry_mprime = {
 				name = "Tredecim",
 				text = {
-					"Create {C:legendary}M Джокер{} в концеround",
+					"Create {C:legendary}M Джокер{} в конце раунда",
 					"Each {C:attention}Jolly Джокер{} или {C:legendary}M Джокер",
 					"gives {X:dark_edition,C:white}^#1#{} Множ.",
 					"Increase amount by {X:dark_edition,C:white}^#2#{}",
@@ -1357,7 +1357,7 @@ return {
 			j_cry_number_blocks = {
 				name = "Number Blocks",
 				text = {
-					"Получите {C:money}$#1#{} в концеround",
+					"Получите {C:money}$#1#{} в конце раунда",
 					"Increase payout by {C:money}$#2#{}",
 					"for each {C:attention}#3#{} в руке,",
 					"rank changes every round",
@@ -1386,7 +1386,7 @@ return {
 					"{C:attention}Джокер{} to the right",
 					"{C:green}#1# из #2#{} шанс this",
 					"card is destroyed",
-					"в концеround",
+					"в конце раунда",
 				},
 			},
 			j_cry_oldcandy = {
@@ -1551,7 +1551,7 @@ return {
 					"Scaling {C:attention}Джокеры{} scale",
 					"as a degree-{C:attention}#1#{} polynomial",
 					"raise degree на {C:attention}#2#{}",
-					"в концеround",
+					"в конце раунда",
 					"{C:inactive,s:0.8}({C:attention,s:0.8}Scalae{C:inactive,s:0.8} excluded)",
 				},
 			},
@@ -1686,7 +1686,7 @@ return {
 				name = "Tenebris",
 				text = {
 					"{C:dark_edition}+#1#{C:attention} Джокер{} slots",
-					"Получите {C:money}$#2#{} в концеround",
+					"Получите {C:money}$#2#{} в конце раунда",
 				},
 			},
 			j_cry_translucent = {
