@@ -724,14 +724,14 @@ return {
 				text = {
 					"Получите {C:money}#1#%{} от total money",
 					"в конце раунда,",
-					"increases by {C:money}#2#%{} per",
+					"увеличивается на {C:money}#2#%{} per",
 					"consecutive payout",
 				},
 			},
 			j_cry_copypaste = {
 				name = "Copy/Paste",
 				text = {
-					"When {C:cry_code}Код{} card is used,",
+					"When {C:cry_code}Код{} карта использована,",
 					"{C:green}#1# из #2#{} шанс add a copy",
 					"to your consumable area",
 					"{C:inactive}(Должно быть место)",
@@ -741,7 +741,7 @@ return {
 				name = "Crustulum",
 				text = {
 					"Этот Джокер получит {C:chips}+#2#{} Фишки",
-					"per {C:attention}reroll{} в магазине",
+					"за {C:attention}переброс{} в магазине",
 					"{C:green}Все перебросы are free{}",
 					"{C:inactive}(Сейчас {C:chips}+#1#{C:inactive} chips)",
 				},
@@ -749,7 +749,7 @@ return {
 			j_cry_cryptidmoment = {
 				name = "M Chain",
 				text = {
-					"Sell this card to",
+					"Продай эту карту чтобы",
 					"add {C:money}$#1#{} от {C:attention}стоимости продажи{}",
 					"to every {C:attention}Джокер{} card",
 				},
@@ -782,8 +782,8 @@ return {
 				text = {
 					"This Джокер destroys",
 					"a случайной {C:cry_code}Код{} карт(ы)",
-					"and gains {X:mult,C:white} X#1# {} Множ.",
-					"at the end of the {C:attention}shop{}",
+					"и дает {X:mult,C:white} X#1# {} Множ.",
+					"в конце {C:attention}магазина{}",
 					"{C:inactive}(Сейчас {X:mult,C:white} X#2# {C:inactive} Множ.)",
 				},
 			},
@@ -798,7 +798,7 @@ return {
 			j_cry_discreet = {
 				name = "Discreet Джокер",
 				text = {
-					"{C:chips}+#1#{} Фишки if played",
+					"{C:chips}+#1#{} Фишек если сыгранная",
 					"рука содержит",
 					"{C:attention}#2#",
 				},
@@ -809,7 +809,7 @@ return {
 					"Create 2 {C:dark_edition}Negative{} {C:attention}consumables{}",
 					"когда {C:attention}Блайнд{} выбран",
 					"Create 1 чаще {C:attention}consumable",
-					"for each {C:attention}Jolly Джокер{}",
+					"за каждый(ую) {C:attention}Jolly Джокер{}",
 				},
 			},
 			["j_cry_Double Scale"] = {
@@ -833,7 +833,7 @@ return {
 			j_cry_dubious = {
 				name = "Dubious Джокер",
 				text = {
-					"{C:chips}+#1#{} Фишки if played",
+					"{C:chips}+#1#{} Фишек если сыгранная",
 					"рука содержит",
 					"{C:attention}#2#",
 				},
@@ -877,7 +877,7 @@ return {
 					"Джокеры appear using the",
 					"order from the {C:attention}Collection{}",
 					"Создаст {C:attention}#1#{} {C:dark_edition}Негативыный{} Джокер(s)",
-					"when hand is played",
+					"когда рука сыграна",
 					"{C:cry_exotic,s:0.8}Экзотический {C:inactive,s:0.8}or better Джокеры cannot appear",
 					"{s:0.8}Last Джокер Generated: {C:attention,s:0.8}#2#",
 				},
@@ -899,7 +899,7 @@ return {
 			j_cry_exoplanet = {
 				name = "Exoplanet",
 				text = {
-					"{C:dark_edition}Holographic{} cards",
+					"{C:dark_edition}Голографический{} cards",
 					"each give {C:mult}+#1#{} Множ.",
 				},
 			},
@@ -945,8 +945,8 @@ return {
 				name = "Fast Food M",
 				text = {
 					"{C:mult}+#1#{} Множ.",
-					"{C:red,E:2}self destructs{} in {C:attention}#2#{} round(s)",
-					"Increases на {C:attention}#3#{} round when",
+					"{C:red,E:2}самоуничтожится{} через {C:attention}#2#{} раунд(s)",
+					"Increases на {C:attention}#3#{} раунд when",
 					"{C:attention}Jolly Джокер{} is {C:attention}sold{}",
 					"{C:inactive,s:0.8}2 McDoubles, 2 McChickens{}",
 					"{C:inactive,s:0.8}Large Fries, 20 Piece & Large Cake{}",
@@ -955,7 +955,7 @@ return {
 			j_cry_foxy = {
 				name = "Foxy Джокер",
 				text = {
-					"{C:chips}+#1#{} Фишки if played",
+					"{C:chips}+#1#{} Фишек если сыгранная",
 					"рука содержит",
 					"{C:attention}#2#",
 				},
@@ -997,7 +997,7 @@ return {
 				text = {
 					"Получите {C:money}#1#%{} от total",
 					"money в конце раунда",
-					"Payout increases by {C:money}#2#%{}",
+					"Payout увеличивается на {C:money}#2#%{}",
 					"when each played {C:attention}Gold{}",
 					"card засчитывается",
 				},
@@ -1014,7 +1014,7 @@ return {
 				text = {
 					"Создаёт случайный {C:attention}Джокер{}",
 					"в конце раунда",
-					"Sell this card to",
+					"Продай эту карту чтобы",
 					"create a случайного {C:attention}Джокера{}",
 					"{C:inactive}(Должно быть место){}",
 				},
@@ -1067,7 +1067,7 @@ return {
 				text = {
 					"Создаст {C:dark_edition}Jolly{} Джокер",
 					"когда Джокер is {C:attention}sold{}",
-					"{C:red}Works once per round{}",
+					"{C:red}Работает раз за раунд{}",
 					"{C:inactive}#1#{}",
 					"{C:inactive,s:0.8}Seems legit...{}",
 				},
@@ -1076,7 +1076,7 @@ return {
 				name = "Kidnapping",
 				text = {
 					"Получите {C:money}$#2#{} в конце раунда",
-					"Increase payout by {C:money}$#1#{}",
+					"Выплата повышается на {C:money}$#1#{}",
 					"когда {C:attention}Type Множ.{} or",
 					"{C:attention}Type Фишки{} Джокер is sold",
 				},
@@ -1126,7 +1126,7 @@ return {
 				name = "Loopy",
 				text = {
 					"{C:attention}Retrigger{} all Джокеры",
-					"once for each {C:attention}Jolly{}",
+					"once за каждый(ую) {C:attention}Jolly{}",
 					"{C:attention}Джокер{} sold this round",
 					"{C:inactive}(Сейчас{}{C:attention:} #1#{}{C:inactive} Retrigger(s)){}",
 					"{C:inactive,s:0.8}There wasn't enough room...{}",
@@ -1200,7 +1200,7 @@ return {
 				name = "Maximized",
 				text = {
 					"Все {C:attention}face{} cards",
-					"are considered {C:attention}Kings{},",
+					"are considered {C:attention}Короли{},",
 					"all {C:attention}numbered{} cards",
 					"are considered {C:attention}10s{}",
 				},
@@ -1208,7 +1208,7 @@ return {
 			j_cry_maze = {
 				name = "Labyrinth",
 				text = {
-					"Все hands are considered the",
+					"Все руки считаются",
 					"{C:attention}first hand{} от каждый раунд,",
 					"all discards are considered the",
 					"{C:attention}first discard{} от каждый раунд",
@@ -1217,7 +1217,7 @@ return {
 			j_cry_Megg = {
 				name = "Megg",
 				text = {
-					"Sell this card to create",
+					"Продай эту карту чтобы создать",
 					"{C:attention}#2#{} Jolly #3#, increase",
 					"на {C:attention}#1#{} в конце раунда",
 				},
@@ -1252,7 +1252,7 @@ return {
 				text = {
 					"Получите {C:money}$#2#{} в конце раунда",
 					"Increase payout by",
-					"{C:money}$#1#{} for each {C:attention}Jolly Джокер{}",
+					"{C:money}$#1#{} за каждый(ую) {C:attention}Jolly Джокер{}",
 					"или {C:legendary}M Джокер at",
 					"конце раунда",
 				},
@@ -1280,7 +1280,7 @@ return {
 				name = "Morse Код",
 				text = {
 					"Получите {C:money}$#2#{} в конце раунда",
-					"Increase payout by {C:money}$#1#{} when",
+					"Выплата повышается на {C:money}$#1#{} when",
 					"a card с {C:attention}Edition{} is sold",
 				},
 			},
@@ -1308,7 +1308,7 @@ return {
 				name = "Множ. Джокер",
 				text = {
 					"{C:green}#1# из #2#{} шанс что each",
-					"played {C:attention}Множ.{} card to create",
+					"played {C:attention}Множ.{} card чтобы создать",
 					"{C:spectral}Cryptid{} card when scored",
 					"{C:inactive}(Должно быть место)",
 				},
@@ -1316,13 +1316,13 @@ return {
 			j_cry_negative = {
 				name = "Negative Джокер",
 				text = {
-					"{C:dark_edition}+#1#{C:attention} Джокер{} slots",
+					"{C:dark_edition}+#1#{C:attention} Джокер{} слотов",
 				},
 			},
 			j_cry_nice = {
 				name = "Nice",
 				text = {
-					"{C:chips}+#1#{} Фишки if played hand",
+					"{C:chips}+#1#{} Фишек если сыгранная hand",
 					"содержит {C:attention}6{} и {C:attention}9",
 					"{C:inactive,s:0.8}Nice.{}",
 				},
@@ -1346,11 +1346,11 @@ return {
 			j_cry_notebook = {
 				name = "Notebook",
 				text = {
-					"{C:green} #1# in #2#{} шанс gain {C:dark_edition}+1{} Джокер",
-					"slot per {C:attention}reroll{} в магазине",
+					"{C:green} #1# in #2#{} шанс gain {C:dark_edition}+1{} слот Джокера",
+					"за {C:attention}переброс{} в магазине",
 					"{C:green}Always triggers{} if there are",
 					"{C:attention}#5#{} or чаще {C:attention}Jolly Джокеры{}",
-					"{C:red}Works once per round{}",
+					"{C:red}Работает раз за раунд{}",
 					"{C:inactive}(Сейчас {C:dark_edition}+#3#{}{C:inactive} and #4#){}",
 				},
 			},
@@ -1358,8 +1358,8 @@ return {
 				name = "Number Blocks",
 				text = {
 					"Получите {C:money}$#1#{} в конце раунда",
-					"Increase payout by {C:money}$#2#{}",
-					"for each {C:attention}#3#{} в руке,",
+					"Выплата повышается на {C:money}$#2#{}",
+					"за каждый(ую) {C:attention}#3#{} в руке,",
 					"rank changes every round",
 				},
 			},
@@ -1382,27 +1382,27 @@ return {
 			j_cry_oldblueprint = {
 				name = "Old Blueprint",
 				text = {
-					"Копии ability of",
-					"{C:attention}Джокер{} to the right",
-					"{C:green}#1# из #2#{} шанс this",
-					"card is destroyed",
+					"Копирует способности",
+					"{C:attention}Джокера{} справа",
+					"{C:green}#1# из #2#{} шанс что эта",
+					"карта будет уничтожена",
 					"в конце раунда",
 				},
 			},
 			j_cry_oldcandy = {
 				name = "Конфета из прошлого",
 				text = {
-					"Sell this card to",
-					"permanently gain",
+					"Продай эту карту чтобы",
+					"навсегда получить",
 					"{C:attention}+#1#{} к размеру руки",
 				},
 			},
 			j_cry_oldinvisible = {
 				name = "Nostalgic Invisible Джокер",
 				text = {
-					"{C:attention}Duplicate{} a random",
-					"{C:attention}Джокер{} every {C:attention}4",
-					"Джокер cards sold",
+					"{C:attention}Дублирует{} случайный",
+					"{C:attention}Джокер{} после каждого {C:attention}4",
+					"проданного Джокера",
 					"{s:0.8}Nostalgic Invisible Джокер Excluded{}",
 					"{C:inactive}(Сейчас #1#/4){}",
 				},
@@ -1410,14 +1410,14 @@ return {
 			j_cry_panopticon = {
 				name = "Panopticon",
 				text = {
-					"Все hands are considered the",
-					"{C:attention}last hand{} от каждый раунд", -- +$4
+					"Все руки считаются",
+					"{C:attention}последней рукой{} каждого раунда", -- +$4
 				},
 			},
 			j_cry_pickle = {
 				name = "Огурчик",
 				text = {
-					"Когда {C:attention}Блайнд{} пропущен , create",
+					"Когда {C:attention}Блайнд{} пропущен , создаст",
 					"{C:attention}#1#{} Tags, reduced by",
 					"{C:red}#2#{} когда {C:attention}Блайнд{} выбран",
 				},
@@ -1426,26 +1426,26 @@ return {
 				name = "Pirate Dagger",
 				text = {
 					"Когда {C:attention}Блайнд{} выбран,",
-					"уничтожит Джокера to the right",
-					"и даст {C:attention}one-fourth{} от",
-					"its sell value as {X:chips,C:white} XChips {}",
-					"{C:inactive}(Сейчас {X:chips,C:white} X#1# {C:inactive} Фишки)",
+					"уничтожит Джокера справа",
+					"и даст {C:attention}1/4{} от",
+					"от стоимости продажи к {X:chips,C:white} XChips {}",
+					"{C:inactive}(Сейчас {X:chips,C:white} X#1# {C:inactive} Фишек)",
 				},
 			},
 			j_cry_pot_of_jokes = {
 				name = "Pot of Jokes",
 				text = {
-					"{C:attention}#1#{} hand size,",
-					"increases by",
-					"{C:blue}#2#{} every round",
+					"{C:attention}#1#{} к размеру руки,",
+					"увеличивается на",
+					"{C:blue}#2#{} каждый раунд",
 				},
 			},
 			j_cry_primus = {
 				name = "Primus",
 				text = {
 					"Этот Джокер получит {X:dark_edition,C:white} ^#1# {} Множ.",
-					"if all cards in played hand are",
-					"{C:attention}Aces{}, {C:attention}2s{}, {C:attention}3s{}, {C:attention}5s{}, или {C:attention}7s{}",
+					"если все карты в сыгранной руке",
+					"{C:attention}Тузы{}, {C:attention}2s{}, {C:attention}3s{}, {C:attention}5s{}, или {C:attention}7s{}",
 					"{C:inactive}(Сейчас {X:dark_edition,C:white} ^#2# {C:inactive} Множ.)",
 				},
 			},
@@ -1454,16 +1454,16 @@ return {
 				text = {
 					"Этот Джокер получит",
 					"{X:mult,C:white} X#1# {} Множ. когда",
-					"{C:cry_code}Код{} card is used",
+					"{C:cry_code}Код{} карта использована",
 					"{C:inactive}(Сейчас {X:mult,C:white} X#2# {C:inactive} Множ.)",
 				},
 			},
 			j_cry_queens_gambit = {
 				name = "Queen's Gambit",
 				text = {
-					"If {C:attention}покерной руки{} это",
-					"{C:attention}Royal Flush{}, destroy scored",
-					"{C:attention}Queen{} and create a",
+					"Если {C:attention}покерная рука{} это",
+					"{C:attention}Роял Флэш{}, уничтожит засчитанную",
+					"{C:attention}Даму{} и создаст",
 					"{C:dark_edition}Negative {}{C:red}Редкий{}{C:attention} Джокер{}",
 				},
 			},
@@ -1478,14 +1478,14 @@ return {
 			j_cry_redbloon = {
 				name = "Red Bloon",
 				text = {
-					"Получите {C:money}$#1#{} in {C:attention}#2#{} round#3#",
-					"{C:red,E:2}self destructs{}",
+					"Получите {C:money}$#1#{} через {C:attention}#2#{} раунд#3#",
+					"{C:red,E:2}самоуничтожится{}",
 				},
 			},
 			j_cry_redeo = {
 				name = "Redeo",
 				text = {
-					"{C:attention}-#1#{} Анте when",
+					"{C:attention}-#1#{} Анте когда",
 					"{C:money}$#2#{} {C:inactive}($#3#){} spent",
 					"{s:0.8}Requirements increase",
 					"{C:attention,s:0.8}exponentially{s:0.8} per use",
@@ -1495,19 +1495,19 @@ return {
 			j_cry_rescribere = {
 				name = "Rescribere",
 				text = {
-					"When {C:attention}Джокер{} is sold,",
-					"add its effects to",
-					"every other Джокер",
+					"Когда {C:attention}Джокер{} продан,",
+					"добавляет его эффекты к",
+					"любому Джокеру",
 					"{C:inactive,s:0.8}Does not affect other Rescribere{}",
 				},
 			},
 			j_cry_reverse = {
 				name = "Reverse Card",
 				text = {
-					"Fill all empty слота для Джокеров {C:inactive}(Max 100){}",
-					"с {C:dark_edition}Holographic{} {C:attention}Jolly Джокеры{} if",
-					"{C:attention}discarded покерную комбинацию{} это {C:attention}#1#{}",
-					"{C:red,E:2}self destructs{}",
+					"Заполняет пустые слоты Джокеров {C:inactive}(Max 100){}",
+					"{C:dark_edition}Голографический{} {C:attention}Jolly Джокеры{} если",
+					"{C:attention}сброшенная покерная комбинация{} это {C:attention}#1#{}",
+					"{C:red,E:2}самоуничтожится{}",
 					"{C:inactive,s:0.8}The ULTIMATE comeback{}",
 				},
 			},
@@ -1522,8 +1522,8 @@ return {
 				text = {
 					"Create {C:green}Необычный{} Джокер",
 					"and 3 {C:attention}Jolly Джокеры{} when",
-					"{C:spectral}Спектральная{} is used",
-					"{C:red}Works once per round{}",
+					"{C:spectral}Спектральная{} использована",
+					"{C:red}Работает раз за раунд{}",
 					"{C:inactive}#1#{}",
 				},
 			},
@@ -1540,7 +1540,7 @@ return {
 			j_cry_savvy = {
 				name = "Savvy Джокер",
 				text = {
-					"{C:chips}+#1#{} Фишки if played",
+					"{C:chips}+#1#{} Фишек если сыгранная",
 					"рука содержит",
 					"{C:attention}#2#",
 				},
@@ -1560,20 +1560,20 @@ return {
 				text = {
 					"{C:green}#1# к #2#{} шанс создать",
 					"{C:dark_edition}Jolly {C:green}Необычный{} Джокер",
-					"when hand is played",
+					"когда рука сыграна",
 				},
 			},
 			j_cry_seal_the_deal = {
 				name = "Seal the Deal",
 				text = {
-					"Добавляет {C:attention}random seal{} to each card",
-					"scored on {C:attention}final hand{} от round",
+					"Добавляет {C:attention}случайную печать{} к каждой карте",
+					"засчитанной на {C:attention}последней руке{} раунда",
 				},
 			},
 			j_cry_shrewd = {
 				name = "Shrewd Джокер",
 				text = {
-					"{C:chips}+#1#{} Фишки if played",
+					"{C:chips}+#1#{} Фишек если сыгранная",
 					"рука содержит",
 					"{C:attention}#2#",
 				},
@@ -1590,26 +1590,26 @@ return {
 				name = "Tiny",
 				text = {
 					"Создаст {C:cry_jolly}Double M",
-					"tag if {C:attention}покерной руки{}",
+					"тэг если {C:attention}покерная рука{}",
 					"это {C:attention}#1#{}",
 					"{C:inactive,s:0.8}ok so basically i'm very smol",
 				},
 			},
 			j_cry_soccer = {
-				name = "One for Все", --changed the name from latin because this isn't exotic
+				name = "Один за Всех", --changed the name from latin because this isn't exotic
 				text = {
-					"{C:attention}+#1#{} Джокер slot",
-					"{C:attention}+#1#{} Бустер Pack slot",
+					"{C:attention}+#1#{} слот Джокера",
+					"{C:attention}+#1#{} слот к Бустер наборам",
 					"{C:attention}+#1#{} к размеру руки",
-					"{C:attention}+#1#{} consumable slot",
-					"{C:attention}+#1#{} card in shop",
+					"{C:attention}+#1#{} к слоту расходников",
+					"{C:attention}+#1#{} к слоту карт в магазине",
 				},
 			},
 			j_cry_spaceglobe = {
 				name = "Celestial Globe",
 				text = {
-					"Этот Джокер получит {X:chips,C:white}X#2#{} Фишки",
-					"if {C:attention}покерной руки{} это {C:attention}#3#{},",
+					"Этот Джокер получит {X:chips,C:white}X#2#{} Фишек",
+					"если {C:attention}покерная рука{} это {C:attention}#3#{},",
 					"Hand changes after increase{}",
 					"{C:inactive}(Сейчас{} {X:chips,C:white}X#1#{} {C:inactive}Фишки){}",
 				},
@@ -1617,33 +1617,33 @@ return {
 			j_cry_speculo = {
 				name = "Speculo",
 				text = {
-					"Creates {C:dark_edition}Negative{} copy",
-					"of a случайного {C:attention}Джокера{}",
-					"at the end of the {C:attention}shop",
-					"{C:inactive,s:0.8}Does not copy other Speculo{}",
+					"Создает {C:dark_edition}Негативную{} копию",
+					"случайного {C:attention}Джокера{}",
+					"в конце {C:attention}магазина",
+					"{C:inactive,s:0.8}Не копирует другие Speculo{}",
 				},
 			},
 			j_cry_stardust = {
 				name = "Stardust",
 				text = {
-					"{C:dark_edition}Полихромный{} cards",
-					"each give {X:mult,C:white}X#1#{} Множ.",
+					"Каждая {C:dark_edition}Полихромная{} карта",
+					"дает {X:mult,C:white}X#1#{} Множ.",
 				},
 			},
 			j_cry_stella_mortis = {
 				name = "Stella Mortis",
 				text = {
-					"This Джокер destroys a",
-					"random {C:planet}Планетарная{}",
-					"and gains {X:dark_edition,C:white} ^#1# {} Множ.",
-					"at the end of the {C:attention}shop{}",
+					"Этот Джокер уничтожает",
+					"случайную {C:planet}Планетарную{} карту",
+					"и дает {X:dark_edition,C:white} ^#1# {} Множ.",
+					" {C:attention}магазина{}",
 					"{C:inactive}(Сейчас {X:dark_edition,C:white} ^#2# {C:inactive} Множ.)",
 				},
 			},
 			j_cry_subtle = {
 				name = "Subtle Джокер",
 				text = {
-					"{C:chips}+#1#{} Фишки if played",
+					"{C:chips}+#1#{} Фишек если сыгранная",
 					"рука содержит",
 					"{C:attention}#2#",
 				},
@@ -1660,11 +1660,11 @@ return {
 			j_cry_sus = {
 				name = "SUS",
 				text = {
-					"At конце раунда, create",
-					"{C:attention}copy{} от a random",
-					"card {C:attention}в руке{},",
-					"destroy all others",
-					"{C:attention,s:0.8}Kings{s:0.8} of {C:hearts,s:0.8}Hearts{s:0.8} are prioritized",
+					"В конце раунда, создаст",
+					"{C:attention}копию{} случайной",
+					"карты {C:attention}в руке{},",
+					"уничтожит все остальные",
+					"{C:attention,s:0.8}Короли{s:0.8} of {C:hearts,s:0.8}Червей{s:0.8} в приоритете",
 				},
 			},
 			j_cry_swarm = {
@@ -1685,23 +1685,23 @@ return {
 			j_cry_tenebris = {
 				name = "Tenebris",
 				text = {
-					"{C:dark_edition}+#1#{C:attention} Джокер{} slots",
+					"{C:dark_edition}+#1#{C:attention} Джокер{} слотов",
 					"Получите {C:money}$#2#{} в конце раунда",
 				},
 			},
 			j_cry_translucent = {
 				name = "Translucent Джокер",
 				text = {
-					"Sell this card to create",
-					"{C:attention}Банановый Скоропортящийся{} copy",
-					"of a случайного {C:attention}Джокера{}",
+					"Продай эту карту чтобы создать",
+					"{C:attention}Банановую Скоропортящуюся{} копию",
+					"случайного {C:attention}Джокера{}",
 					"{s:0.8,C:inactive}(Copy bypasses perish compat)",
 				},
 			},
 			j_cry_tricksy = {
 				name = "Tricksy Джокер",
 				text = {
-					"{C:chips}+#1#{} Фишки if played",
+					"{C:chips}+#1#{} Фишек если сыгранная",
 					"рука содержит",
 					"{C:attention}#2#",
 				},
@@ -1709,8 +1709,8 @@ return {
 			j_cry_triplet_rhythm = {
 				name = "Triplet Rhythm",
 				text = {
-					"{X:mult,C:white} X#1# {} Множ. if scoring hand",
-					"contains {C:attention}exactly{} three {C:attention}3s",
+					"{X:mult,C:white} X#1# {} Множ. если засчитанная комбинация",
+					"содержит {C:attention}точно{} три {C:attention}3",
 				},
 			},
 			j_cry_unity = {
@@ -1742,10 +1742,10 @@ return {
 			j_cry_verisimile = {
 				name = "Non Verisimile",
 				text = {
-					"When any probability",
-					"is {C:green}successfully{} triggered,",
-					"this Джокер gains {X:red,C:white}XMult{}",
-					"equal to its listed {C:attention}odds",
+					"Когда любой шанс",
+					"{C:green}успешно{} срабатывает,",
+					"этот Джокер получает {X:red,C:white}XMult{}",
+					"равный указанным {C:attention}шансам",
 					"{C:inactive}(Сейчас {X:mult,C:white} X#1# {C:inactive} Множ.)",
 				},
 			},
@@ -2962,7 +2962,7 @@ return {
 			ach_cry_break_infinity = "Score 1.79e308 Фишки in a single hand",
 			ach_cry_cryptid_the_cryptid = "Use Cryptid on Cryptid",
 			ach_cry_exodia = "Have 5 Экзотические Джокеры",
-			ach_cry_freak_house = "Play a Flush House consisting of 6s and 9s of Hearts whilst possessing Nice",
+			ach_cry_freak_house = "Play a Flush House consisting of 6s and 9s of Червей whilst possessing Nice",
 			ach_cry_googol_play_pass = "Rig a Googol Play Card",
 			ach_cry_haxxor = "Use a cheat code",
 			ach_cry_home_realtor = "Activate Happy House before Анте 8 (without DoE/Antimatter)",
@@ -3131,7 +3131,7 @@ return {
 				selling_self = { "когда эта карта продана" },
 				selling_card = { "когда карта продана" },
 				reroll_shop = { "on reroll" },
-				ending_shop = { "at the end of the {C:attention}shop{}" },
+				ending_shop = { "в конце {C:attention}магазина{}" },
 				skip_blind = { "когда {C:attention}блайнд{} пропущен " },
 				skipping_booster = { "когда любой {C:attention}Бустер Набор{} пропущен" },
 				playing_card_added = { "каждый раз, когда в вашу колоду добавляется {C:attention}игральная карта{}" },
