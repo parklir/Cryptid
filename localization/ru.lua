@@ -412,7 +412,15 @@ return {
 				name = "://CTRL+V",
 				text = {
 					"Создает {C:cry_code}копию{} выбранной",
-					"игральной карты или расходника",
+					"{C:cry_code}игральной карты{} или {C:cry_code}расходника{}",
+				},
+			},
+			c_cry_alttab = {
+				name = "://ALTTAB",
+				text = {
+					"Создает {C:cry_code}текущий{}",
+					"Тэг пропуска",
+					"{C:inactive}(Сейчас: {C:cry_code}#1#{C:inactive})",
 				},
 			},
 			c_cry_rework = {
@@ -2481,6 +2489,13 @@ return {
 					"сделать ее {C:dark_edition}Двухсторонней",
 				},
 			},
+			c_cry_seraph = {
+				name = "The Seraph",
+				text = {
+					"Улучшает {C:attention}#1#{} выбранные карты#<s>1#",
+					"до {C:attention}Легкой карты",
+				},
+			},
 			c_cry_theblessing = {
 				name = "Благословение",
 				text = {
@@ -2490,7 +2505,7 @@ return {
 				},
 			},
 		},
-		Ваучер = {
+		Voucher = {
 			v_cry_asteroglyph = {
 				name = "Астроглиф",
 				text = {
