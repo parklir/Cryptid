@@ -3036,7 +3036,7 @@ return {
 
 			k_code = "Код",
 			b_code_cards = "Код Карты",
-			b_pull = "PULL",
+			b_pull = "ВЫТЯНУТЬ",
 			cry_hooked_ex = "Hooked!",
 			k_end_blind = "Конец Блайнда",
 
@@ -3053,10 +3053,10 @@ return {
 			cry_code_execute = "EXECUTE",
 			cry_code_cancel = "ОТМЕНА",
 
-			b_flip = "FLIP",
-			b_merge = "MERGE",
+			b_flip = "ПЕРЕВЕРНУТЬ",
+			b_merge = "СОЕДЕНИТЬ",
 
-			cry_again_q = "Again?",
+			cry_again_q = "Ещё?",
 			cry_curse = "Curse",
 			cry_curse_ex = "Curse!",
 			cry_sobbing = "Help me...",
@@ -3112,10 +3112,10 @@ return {
 			},
 			stats_inactive = {
 				plus_mult = { "{C:inactive}(Сейчас {C:red}+#1#{C:inactive} Множ.)" },
-				plus_chips = { "{C:inactive}(Сейчас {C:blue}+#1#{C:inactive} Фишки)" },
+				plus_chips = { "{C:inactive}(Сейчас {C:blue}+#1#{C:inactive} Фишек)" },
 				x_mult = { "{C:inactive}(Сейчас {X:red,C:white} X#1# {C:inactive} Множ.)" },
-				x_chips = { "{C:inactive}(Сейчас {X:blue,C:white} X#1# {C:inactive} Фишки)" },
-				h_size = { "{C:inactive}(Сейчас {C:attention}+#1#{C:inactive} Hand Size)" },
+				x_chips = { "{C:inactive}(Сейчас {X:blue,C:white} X#1# {C:inactive} Фишек)" },
+				h_size = { "{C:inactive}(Сейчас {C:attention}+#1#{C:inactive} размер руки)" },
 				money = { "{C:inactive}(Сейчас {C:money}+$#1#{C:inactive})" },
 			},
 			actions = {
@@ -3145,7 +3145,7 @@ return {
 				end_of_round = { "в конце {C:attention}раунда{}" },
 				individual_play = { "за каждую засчитанную карту" },
 				individual_hand_score = { "за каждую карту, которая была в руках во время подсчета" },
-				individual_hand_end = { "за каждую карту, которая была в руках в конце{C:attention}round{}" },
+				individual_hand_end = { "за каждую карту, которая была в руках в конце{C:attention}раунда{}" },
 				repetition_play = { "Перезапуск сыгранных карт" },
 				repetition_hand = { "Перезапуск карт в руке" },
 				other_joker = { "per {C:attention}Джокер{}" },
@@ -3164,7 +3164,7 @@ return {
 				rank = { "if card is rank {C:attention}#3#{}" },
 				face = { "если карта {C:attention}с лицом{}" },
 				boss = { "если {C:attention}блайнд{} это {C:attention}Босс {C:attention}Блайнд{}" },
-				non_boss = { "если {C:attention}блайнд{} это {C:attention}Не-Босс {C:attention}Блайнд{}" },
+				non_boss = { "если {C:attention}Блайнд{} это {C:attention}Не-Босс {C:attention}Блайнд{}" },
 				small = { "если {C:attention}блайнд{} это {C:attention}Small {C:attention}Блайнд{}" },
 				big = { "если {C:attention}блайнд{} это {C:attention}Big {C:attention}Блайнд{}" },
 				first = { "если это {C:attention}первая {C:attention}рука{}" },
@@ -3195,7 +3195,7 @@ return {
 			a_round_minus = { "-#1# Раунд" },
 
 			a_tag = { "#1# Тэг" },
-			a_tags = { "#1# Tags" },
+			a_tags = { "#1# Тэги" },
 
 			cry_sticker_name = { "#1# Sticker" },
 			cry_sticker_desc = {
