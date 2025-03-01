@@ -689,7 +689,7 @@ return {
 				name = "Циркуль Писторис",
 				text = {
 					"{X:dark_edition,C:white}^#1#{} Фишек, {X:dark_edition,C:white}^#1#{} Множ.",
-					"если остается {C:attention}ровно{} #2#" руки",
+					"если остается {C:attention}ровно{} #2# руки",
 				},
 			},
 			j_cry_circus = {
