@@ -2492,7 +2492,7 @@ return {
 			c_cry_seraph = {
 				name = "The Seraph",
 				text = {
-					"Улучшает {C:attention}#1#{} выбранные карты#<s>1#",
+					"Улучшает {C:attention}#1#{} выбранные карты",
 					"до {C:attention}Легкой карты",
 				},
 			},
